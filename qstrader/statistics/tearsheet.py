@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('TkAgg')
 from matplotlib.ticker import FuncFormatter
 from matplotlib import cm
 import matplotlib.pyplot as plt
